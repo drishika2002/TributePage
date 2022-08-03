@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Merriweather', serif;
+    background-color: #d2dae2;
+}
+
+.heading {
+    margin: 25px 0 50px 0;
+    padding: 25px;
+    background-color: #808e9b;
+    border-top: 5px #131313 solid;
+    border-bottom: 5px #131313 solid;
+}
+
+.main-image {
+    text-align: center;
+}
+
+.main-image img {
+    height: 500px;
+    width: 68%;
+    border: 5px solid #808e9b;
+    border-radius: 15px;
+}
