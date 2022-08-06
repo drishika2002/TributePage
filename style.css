@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #131313;
+}
+
 html {
     font-family: 'Merriweather', serif;
     background-color: #e2e2e2;
@@ -31,13 +36,33 @@ html {
     border-radius: 15px;
 }
 
-.facts {
+.intro {
     font-family: 'Open Sans', sans-serif;
     margin: 5rem 0 5rem 0;
     padding: 2.5rem 15rem 2.5rem 15rem;
     text-align: justify;
     background-color: #95a5a6;
     font-size: 1rem;
+    margin-bottom: 0;
+    border-left: solid 30px #e2e2e2;
+    border-right: solid 30px #e2e2e2;
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+
+.intro_title {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+hr 
+{
+    border: dotted #adc4c4 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .fact_title {
@@ -49,4 +74,8 @@ html {
 
 .facts li {
     margin: 5px;
+}
+
+.bottom {
+    margin: 50px;
 }
